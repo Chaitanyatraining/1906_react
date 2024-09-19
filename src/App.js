@@ -1,25 +1,22 @@
-import logo from './logo.svg';
-import './App.css';
+import ClassComp from "./ClassComp";
+import FuncComp from "./FuncComp";
 
-function App() {
+const App = () => {
+  const name = 'sachin';
+
+  const details = {
+    id:4,
+    age:'sulurpet'
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+    <section>
+      <p>This is para</p>
+      <h1>This is heading</h1>
+      <FuncComp title={name} courseName='Reactjs' details={details} />
+      <ClassComp />
+    </section>
+  )
 }
 
 export default App;

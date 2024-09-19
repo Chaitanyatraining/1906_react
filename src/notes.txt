@@ -1,0 +1,5 @@
+- what is component
+- types of components
+- what is jsx, babel
+- props
+
