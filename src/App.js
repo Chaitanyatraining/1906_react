@@ -1,5 +1,12 @@
 import ClassComp from "./ClassComp";
+import Counter from "./Counter";
 import FuncComp from "./FuncComp";
+import './App.css'
+import StylingsComp from "./Components/Stylings/StylingsComp";
+import ListsandKeys from "./Components/ListsandKeys";
+import UsersList from "./Components/UsersList";
+import Pagination from "./Components/Pagination";
+
 
 const App = () => {
   const name = 'sachin';
@@ -10,11 +17,14 @@ const App = () => {
   };
 
   return (
-    <section>
-      <p>This is para</p>
-      <h1>This is heading</h1>
-      <FuncComp title={name} courseName='Reactjs' details={details} />
-      <ClassComp />
+    <section className="App">
+      {/* <UsersList /> */}
+      <Pagination />
+      {/* <ListsandKeys /> */}
+      {/* <StylingsComp />
+      <Counter /> */}
+      {/* <FuncComp title={name} courseName='Reactjs' details={details} />
+      <ClassComp title={name} courseName='Reactjs' details={details} /> */}
     </section>
   )
 }

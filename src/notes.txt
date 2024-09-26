@@ -2,4 +2,13 @@
 - types of components
 - what is jsx, babel
 - props
-
+- virtual DOM
+- State
+- lists and keys
+- fragments
+- lifecycle methods in class components
+    - mounting
+    - updating
+    - unmounting
+    
+can we pass state through props
