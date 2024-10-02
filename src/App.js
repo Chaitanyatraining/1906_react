@@ -6,6 +6,8 @@ import StylingsComp from "./Components/Stylings/StylingsComp";
 import ListsandKeys from "./Components/ListsandKeys";
 import UsersList from "./Components/UsersList";
 import Pagination from "./Components/Pagination";
+import Navbar from "./Components/Navbar";
+import Routing from "./Components/Routing/Routing";
 
 
 const App = () => {
@@ -18,8 +20,12 @@ const App = () => {
 
   return (
     <section className="App">
+      <Navbar />
+      <Routing />
+
+      
       {/* <UsersList /> */}
-      <Pagination />
+      {/* <Pagination /> */}
       {/* <ListsandKeys /> */}
       {/* <StylingsComp />
       <Counter /> */}

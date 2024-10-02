@@ -10,5 +10,6 @@
     - mounting
     - updating
     - unmounting
+- Routing
     
 can we pass state through props
