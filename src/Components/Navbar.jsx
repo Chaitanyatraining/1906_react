@@ -25,6 +25,18 @@ const Navbar = () => {
                                 <Link to='/aboutus' class="nav-link">aboutus</Link>
                             </li>
                             <li class="nav-item">
+                                <Link to='/useeffect' class="nav-link">useeffect</Link>
+                            </li>
+                            <li class="nav-item">
+                                <Link to='/useeffectpagination' class="nav-link">useeffectPagination</Link>
+                            </li>
+                            <li class="nav-item">
+                                <Link to='/useeffectunmounting' class="nav-link">useeffectunmounting</Link>
+                            </li>
+                            <li class="nav-item">
+                                <Link to='/contactus' class="nav-link">Contact Us</Link>
+                            </li>
+                            <li class="nav-item">
                                 <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                             </li>
                         </ul>
