@@ -1,0 +1,8 @@
+useref hook
+- Timer with useRef
+Create a simple timer that starts when a "Start" button is clicked and stops when a "Stop" button is clicked, but without re-rendering the component on every timer update.
+
+Steps:
+Use useState for the display of the timer.
+Use useRef to store the timer's ID and track the time.
+Implement the logic to start, stop, and clear the timer without causing re-renders on each tick.

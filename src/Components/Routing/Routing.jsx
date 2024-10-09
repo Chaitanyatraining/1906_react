@@ -8,6 +8,7 @@ import UseEffectData from '../UseEffectData'
 import UseEffectPagination from '../UseEffectPagination'
 import UseeffectUnmounting from '../UseeffectUnmounting'
 import ContactUs from '../ContactUs'
+import UseRefComp from '../UseRefComp'
 
 const Routing = () => {
   return (
@@ -18,6 +19,7 @@ const Routing = () => {
         <Route path='/useeffect' element={<UseEffectData />} />
         <Route path='/useeffectpagination' element={<UseEffectPagination />} />
         <Route path='/useeffectunmounting' element={<UseeffectUnmounting />} />
+        <Route path='/userefhook' element={<UseRefComp />} />
         <Route path='/contactus' element={<ContactUs />} />
         <Route path='*' element={<NotFound />} />
     </Routes>
