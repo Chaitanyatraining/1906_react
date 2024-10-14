@@ -9,6 +9,7 @@ import UseEffectPagination from '../UseEffectPagination'
 import UseeffectUnmounting from '../UseeffectUnmounting'
 import ContactUs from '../ContactUs'
 import UseRefComp from '../UseRefComp'
+import UseReducerHook from '../../hooks/UseReducerHook'
 
 const Routing = () => {
   return (
@@ -20,6 +21,7 @@ const Routing = () => {
         <Route path='/useeffectpagination' element={<UseEffectPagination />} />
         <Route path='/useeffectunmounting' element={<UseeffectUnmounting />} />
         <Route path='/userefhook' element={<UseRefComp />} />
+        <Route path='/usereducer' element={<UseReducerHook />} />
         <Route path='/contactus' element={<ContactUs />} />
         <Route path='*' element={<NotFound />} />
     </Routes>

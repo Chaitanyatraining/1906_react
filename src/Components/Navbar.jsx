@@ -37,6 +37,9 @@ const Navbar = () => {
                                 <Link to='/userefhook' class="nav-link">useRef</Link>
                             </li>
                             <li class="nav-item">
+                                <Link to='/usereducer' class="nav-link">useReducer</Link>
+                            </li>
+                            <li class="nav-item">
                                 <Link to='/contactus' class="nav-link">Contact Us</Link>
                             </li>
                             <li class="nav-item">

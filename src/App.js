@@ -8,6 +8,7 @@ import UsersList from "./Components/UsersList";
 import Pagination from "./Components/Pagination";
 import Navbar from "./Components/Navbar";
 import Routing from "./Components/Routing/Routing";
+import UseContextHook from "./hooks/useContext/UseContextHook";
 
 
 const App = () => {
@@ -23,7 +24,7 @@ const App = () => {
       <Navbar />
       <Routing />
 
-      
+      {/* <UseContextHook /> */}
       {/* <UsersList /> */}
       {/* <Pagination /> */}
       {/* <ListsandKeys /> */}
