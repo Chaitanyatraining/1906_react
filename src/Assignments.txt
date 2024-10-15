@@ -6,3 +6,31 @@ Steps:
 Use useState for the display of the timer.
 Use useRef to store the timer's ID and track the time.
 Implement the logic to start, stop, and clear the timer without causing re-renders on each tick.
+
+---------------------------------
+useReducer hook - Task
+Task:
+Create a Todo List app using the useReducer hook. Your app should allow users to:
+
+Add a new todo with a title and description.
+Mark a todo as completed or incomplete.
+Delete a todo from the list.
+Filter todos to show all, only completed, or only incomplete todos.
+Edit a todo (allow the user to update the title and description).
+Steps:
+Initial State: Define your initial state with an array of todos. Each todo should have an id, title, description, and completed status (boolean).
+
+Reducer Function: Create a reducer function that will handle the following actions:
+
+ADD_TODO: Adds a new todo to the state.
+TOGGLE_TODO: Toggles the completed status of a todo.
+DELETE_TODO: Removes a todo by its id.
+UPDATE_TODO: Updates the title and description of a todo.
+FILTER_TODOS: Filters the todos based on their completion status.
+Dispatching Actions:
+
+Use dispatch to send actions like adding, toggling, deleting, editing, and filtering todos.
+Filtering Functionality:
+
+Maintain a separate piece of state to track the current filter (e.g., all, completed, or incomplete).
+Ensure the displayed todos change based on the filter.
