@@ -34,3 +34,12 @@ Filtering Functionality:
 
 Maintain a separate piece of state to track the current filter (e.g., all, completed, or incomplete).
 Ensure the displayed todos change based on the filter.
+----------------------
+
+customhook 
+
+create a component for socialProfile and render the data into it 
+
+API : https://dummyapi.online/api/social-profiles
+
+the api call should be happening through the custom hook.

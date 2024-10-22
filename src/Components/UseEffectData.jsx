@@ -1,23 +1,26 @@
 import React, { useEffect, useState } from 'react'
+import useFetch from '../hooks/useFetch'
 
 const UseEffectData = () => {
-    const [userData, setuserData] = useState([])
+    // const [userData, setuserData] = useState([])
+    const url = 'https://jsonplaceholder.typicode.com/users'
 
-    useEffect(() => {
-        getUsersData()
-     }, [])
+    const userData = useFetch(url)
+    // useEffect(() => {
+    //     getUsersData()
+    //  }, [])
 
     // useEffect brings lifecycle methods 
 
-    const getUsersData = async () => {
-        const response = await fetch('https://jsonplaceholder.typicode.com/users')
-        const data = await response.json()
-        setuserData(data)        
-    }
+    // const getUsersData = async () => {
+    //     const response = await fetch('https://jsonplaceholder.typicode.com/users')
+    //     const data = await response.json()
+    //     setuserData(data)        
+    // }
 
     return (
         <div>
-            <h2>Useeffectdata</h2>
+            <h2>Useeffectdata 1111</h2>
             <table className='table'>
                 <tr>
                     <th>Sno</th>

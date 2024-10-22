@@ -12,6 +12,7 @@ const UseeffectUnmounting = () => {
         // unmounting Phase
 
         return() => {
+            console.log('unmounting executed')
             clearInterval(timer)
         }
 

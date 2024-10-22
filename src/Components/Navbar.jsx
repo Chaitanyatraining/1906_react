@@ -40,6 +40,12 @@ const Navbar = () => {
                                 <Link to='/usereducer' class="nav-link">useReducer</Link>
                             </li>
                             <li class="nav-item">
+                                <Link to='/usememo' class="nav-link">useMemo</Link>
+                            </li>
+                            <li class="nav-item">
+                                <Link to='/usecallback' class="nav-link">usecallback</Link>
+                            </li>
+                            <li class="nav-item">
                                 <Link to='/contactus' class="nav-link">Contact Us</Link>
                             </li>
                             <li class="nav-item">

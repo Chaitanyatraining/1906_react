@@ -10,6 +10,8 @@ import UseeffectUnmounting from '../UseeffectUnmounting'
 import ContactUs from '../ContactUs'
 import UseRefComp from '../UseRefComp'
 import UseReducerHook from '../../hooks/UseReducerHook'
+import UseMemoHook from '../UseMemoHook'
+import UseCallbackHook from '../UseCallbackHook'
 
 const Routing = () => {
   return (
@@ -22,6 +24,8 @@ const Routing = () => {
         <Route path='/useeffectunmounting' element={<UseeffectUnmounting />} />
         <Route path='/userefhook' element={<UseRefComp />} />
         <Route path='/usereducer' element={<UseReducerHook />} />
+        <Route path='/usememo' element={<UseMemoHook />} />
+        <Route path='/usecallback' element={<UseCallbackHook />} />
         <Route path='/contactus' element={<ContactUs />} />
         <Route path='*' element={<NotFound />} />
     </Routes>
